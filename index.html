@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>GoCab</title>
+    <title>Hello-Cab</title>
     <!-- font-awesome -->
     <script src="https://kit.fontawesome.com/675fbc22c1.js" crossorigin="anonymous"></script>
     <!-- slick slider -->
@@ -22,12 +22,12 @@
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <!-- logo -->
-          <a class="navbar-brand cus_space" href="index.html">
-            <img src="images/gocab-logo.png" class="img-fluid h_logo" alt="Gocab">
+          <a class="navbar-brand h_logo" href="index.html">
+            <span><i class="fa-solid fa-car"></i></span>Hello-Cab
           </a>
           <!-- toggler button -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon cus_nav-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 menu">
@@ -36,13 +36,13 @@
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#about">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="#service">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Help</a>
+                <a class="nav-link" href="#help">Help</a>
               </li>
               <li class="nav-item">
                 <button class="btn h_btn">Get a ride</button>
@@ -58,7 +58,7 @@
       <div class="container">
         <div class="banner_content">
           <div class="row">
-            <div class="col-lg-5"> 
+            <div class="col-lg-5 col-md-6"> 
               <div class="bc_left">
                 <form action="#" class="bc_form">
                   <h2 class="mb-0 cmn_h2">Book a ride now</h2>
@@ -112,7 +112,7 @@
                 </form>
               </div>
             </div>
-            <div class="col-lg-7">
+            <div class="col-lg-7 col-md-6">
               <div class="bc_right">
                 <!-- carousel start -->
                 <div id="cea" class="carousel slide" data-bs-ride="carousel">
@@ -123,7 +123,7 @@
                         <h2 class="banner_h2 mb-0">Get 15% off your first rental</h2>
                         <p class="mb-0 banner_p">Plan your trip now</p>
                         <div class="br_s_img">
-                          <img src="images/car1.png" class="img-fluid" alt="Gocab">
+                          <img src="images/car1.png" class="img-fluid" alt="Hello-cab">
                         </div>
                       </div>
                     </div>
@@ -133,7 +133,7 @@
                         <h2 class="banner_h2 mb-0">LUXURY CAR FROM FROM $28 DAY</h2>
                         <p class="mb-0 banner_p">Treat yourself</p>
                         <div class="br_s_img">
-                          <img src="images/car2.png" class="img-fluid" alt="GoCab">
+                          <img src="images/car2.png" class="img-fluid" alt="Hello-cab">
                         </div>
                       </div>
                     </div>
@@ -143,10 +143,10 @@
                         <h2 class="banner_h2 mb-0">24 hours 7 days a week</h2>
                         <div class="br_contact">
                           <div class="row">
-                            <div class="col-lg-2">
+                            <div class="col-lg-2 col-md-2">
                               <i class="fa-solid fa-phone"></i>
                             </div>
-                            <div class="col-lg-10">
+                            <div class="col-lg-10 col-md-10">
                               <p class="mb-0">Call us now!</p>
                               <h1>989-422-3920</h1>
                             </div>
@@ -163,7 +163,69 @@
         </div>
       </div>
     </section>
-    <section class="service cmn_padding">
+    <!-- about start -->
+    <section class="about cmn_padding" id="about">
+      <div class="container">
+        <div class="row text-center">
+          <div class="about_top">
+            <p class="mb-0 cmn_p">About Us</p>
+            <h2 class="cmn_h2 mb-0">Empowering Your Travel Experience with Hello-Cab</h2>
+          </div>
+        </div>
+        <!-- about-content -->
+        <div class="row ac_m">
+          <div class="col-lg-6">
+            <div class="about_left">
+              <!-- <h2 class="cmn_h2 mb-0">Hello-Cab is the name of Reliability</h2> -->
+              <p class="about_p mb-3">
+                Hello-Cab, a name of reliability to all! We are a fully licensed and well-experienced Taxi Service Provider in England. </p>
+              <p class="about_p mb-0">
+                No matter if you are an individual or a group of people, large or small, business or family, we are here to facilitate you with efficient, clean, and professional Taxi Services in Fort William (England).
+                We are available 24 hours throughout the year. All of our drivers are highly trained and certified to maintain the premier standards for the passengers.  
+              </p>
+              <button class="btn h_btn">Read more</button>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about_img">
+              <img src="images/pexels-shkrabaanthony-7144187 (1).jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="survey cmn_padding">
+          <!-- counter up plug in start -->
+      <div class="container">
+        <div class="row">
+          <!-- single -->
+          <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+            <div class="wrapper text-center">
+              <div class="survey_icon"><i class="fa-solid fa-users"></i></div>
+              <h2 class="counter">45,000</h2>
+              <h3>Satisfied Customers</h3>
+            </div>
+          </div>
+          <!-- single -->
+          <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+            <div class="wrapper text-center cus_border">
+              <div class="survey_icon"><i class="fa-solid fa-gears"></i></div>
+              <h2 class="counter">23</h2>
+              <h3>Years of Service</h3>
+            </div>
+          </div>
+          <!-- single -->
+          <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+            <div class="wrapper text-center">
+              <div class="survey_icon"><i class="fa-solid fa-taxi"></i></div>
+              <h2 class="counter">540</h2>
+              <h3>Vehicles in fleet</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="service cmn_padding" id="service">
       <div class="container">
         <div class="row">
           <div class="s_top">
@@ -172,102 +234,131 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-lg-5">
+          <div class="col-lg-4">
             <div class="single_s">
               <div class="single_img">
                 <img src="images/airport-img.jpg" class="img-fluid" alt="airport_transfer">
               </div>
               <div class="single_content">
-                <h2 class="mb-0 cmn_h2">Airport Transfer and Car Hire</h2>
-                <p>We provide convenient and professional service to all the airports in England. Our highly mannered drivers also assist you in travel plans and shifting luggage throughout the journey.</p>
-                <a href="#">Learn More</a>
+                <h2 class="mb-0">Airport Transfer and Car Hire</h2>
+                <p class="mb-0">We provide convenient and professional service to all the airports in England. Our highly mannered drivers also assist you in travel plans and shifting luggage throughout the journey.</p>
+                <butoon class="btn service_btn">Learn more <span><i class="fa-solid fa-arrow-right"></i></span></butoon>
               </div>
             </div>
           </div>
           <!-- single -->
-          <div class="col-lg-5">
+          <div class="col-lg-4">
             <div class="single_s">
               <div class="single_img">
                 <img src="images/airport-img.jpg" class="img-fluid" alt="airport_transfer">
               </div>
               <div class="single_content">
-                <h2>Airport Transfer and Car Hire</h2>
-                <p>We provide convenient and professional service to all the airports in England. Our highly mannered drivers also assist you in travel plans and shifting luggage throughout the journey.</p>
-                <a href="#">Learn More</a>
+                <h2 class="mb-0">Guided tours and transport</h2>
+                <p class="mb-0">We have experienced Guide to assist the client in a professional manner. Our clients feels at ease about our exact plan. Our team will lead them to the desired location with clean transport facilities.</p>
+                <butoon class="btn service_btn">Learn more <span><i class="fa-solid fa-arrow-right"></i></span></butoon>
+              </div>
+            </div>
+          </div>
+          <!-- single -->
+          <!-- <div class="col-lg-4">
+            <div class="single_s">
+              <div class="single_img">
+                <img src="images/airport-img.jpg" class="img-fluid" alt="airport_transfer">
+              </div>
+              <div class="single_content">
+                <h2 class="mb-0">Door-to-door service to all hotel</h2>
+                <p class="mb-0">It doesn’t matter if you are staying at a hotel or at home, our Taxi will reach your door as per your requirement. We believe in customer comfort, that’s why we prefer to stay at a hotel or home.</p>
+                <butoon class="btn service_btn">Learn more <span><i class="fa-solid fa-arrow-right"></i></span></butoon>
+              </div>
+            </div>
+          </div> -->
+          <!-- single -->
+          <div class="col-lg-4">
+            <div class="single_s">
+              <div class="single_img">
+                <img src="images/airport-img.jpg" class="img-fluid" alt="airport_transfer">
+              </div>
+              <div class="single_content">
+                <h2 class="mb-0">AirBnb around for william</h2>
+                <p class="mb-0">Are you a traveler in England? Do you need a place to stay for a whole day? No worries, “Hello-Taxi” also has the concern about your stay and food. Our B&B services are available at Fort William.</p>
+                <butoon class="btn service_btn">Learn more <span><i class="fa-solid fa-arrow-right"></i></span></butoon>
               </div>
             </div>
           </div>
         </div>
+        <!-- view button -->
+        <div class="view_btn text-center">
+          <button class="btn h_btn">View All our services</button>
+        </div>
       </div>
     </section>
-    <section class="rides">
+    <section class="rides cmn_padding">
       <div class="container">
         <div class="row text-center">
           <div class="r_top">
             <p class="mb-0 cmn_p">Your Journey, Your style</p>
             <h2 class="cmn_h2">Drive, cruise, explore—hit the road with style!</h2>
-            <p class="mb-0">We've got options for every clients.Choose a ride that suits your mood and budget and we will take you anywhere.</p>
+            <p class="mb-0 black">We've got options for every clients.Choose a ride that suits your mood and budget and we will take you anywhere.</p>
           </div>
         </div>
         <div class="row">
           <div class="r_slider">
+            <!-- single -->
             <div class="col-lg-4">
               <div class="rs_single">
                 <h3 class="mb-0">Wait & save</h3>
                 <div class="rs_img">
                   <img src="images/wait-save-car.svg" class="img-fluid" alt="car">
                 </div>
-                <p class="mb-0"><i class="fa-solid fa-money-check-dollar"></i> <span>Budget-friendly</span></p>
+                <p class="mb-2"><i class="fa-solid fa-money-check-dollar"></i> <span>Budget-friendly</span></p>
                 <p class="mb-0"><i class="fa-solid fa-person"></i><span>Private</span></p>
               </div>
             </div>
-
+            <!-- single -->
             <div class="col-lg-4">
               <div class="rs_single">
-                <h3 class="mb-0">Wait & save</h3>
+                <h3 class="mb-0">Standard</h3>
                 <div class="rs_img">
                   <img src="images/wait-save-car.svg" class="img-fluid" alt="car">
                 </div>
-                <p class="mb-0"><i class="fa-solid fa-money-check-dollar"></i> <span>Budget-friendly</span></p>
+                <p class="mb-2"><i class="fa-solid fa-money-check-dollar"></i> <span>Efficient</span></p>
                 <p class="mb-0"><i class="fa-solid fa-person"></i><span>Private</span></p>
               </div>
             </div>
-
+            <!-- single -->
             <div class="col-lg-4">
               <div class="rs_single">
-                <h3 class="mb-0">Wait & save</h3>
+                <h3 class="mb-0">Priority pickup</h3>
                 <div class="rs_img">
                   <img src="images/wait-save-car.svg" class="img-fluid" alt="car">
                 </div>
-                <p class="mb-0"><i class="fa-solid fa-money-check-dollar"></i> <span>Budget-friendly</span></p>
+                <p class="mb-2"><i class="fa-solid fa-money-check-dollar"></i> <span>Efficient</span></p>
                 <p class="mb-0"><i class="fa-solid fa-person"></i><span>Private</span></p>
               </div>
             </div>
-
+            <!-- single -->
             <div class="col-lg-4">
               <div class="rs_single">
-                <h3 class="mb-0">Wait & save</h3>
+                <h3 class="mb-0">Extra comfort</h3>
                 <div class="rs_img">
                   <img src="images/wait-save-car.svg" class="img-fluid" alt="car">
                 </div>
-                <p class="mb-0"><i class="fa-solid fa-money-check-dollar"></i> <span>Budget-friendly</span></p>
+                <p class="mb-2"><i class="fa-solid fa-money-check-dollar"></i> <span>Roomier Car</span></p>
+                <p class="mb-0"><i class="fa-solid fa-person"></i><span>Top drivers</span></p>
+              </div>
+            </div>
+            <!-- single -->
+            <div class="col-lg-4">
+              <div class="rs_single">
+                <h3 class="mb-0">XL</h3>
+                <div class="rs_img">
+                  <img src="images/wait-save-car.svg" class="img-fluid" alt="car">
+                </div>
+                <p class="mb-2"><i class="fa-solid fa-money-check-dollar"></i> <span>Extra Seats</span></p>
                 <p class="mb-0"><i class="fa-solid fa-person"></i><span>Private</span></p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <!-- app-download -->
-    <section class="app">
-      <div class="a_overlay"></div>
-      <div class="container">
-        <div class="app_content">
-          <p class="cmn_p mb-0 p_padding">Your ride, your rules</p>
-          <h2 class="cmn_h2">Download the GoCab app today</h2>
-          <p class="app_p mb-0">Sem nulla dignissim arcu semper tempus turpis. Amet risus id nunc augue. Suscipit dictum mauris sed nulla. Amet mi elit donec id et diam.</p>
-          <button class="btn app_btn"><i class="fa-brands fa-google-play"></i><p class="mb-0">Get it on <br> <span>google play</span></p></button>
-          <button class="btn app_btn c_btn"><i class="fa-brands fa-apple"></i><p class="mb-0">Download on<br> <span>App Store</span></p></button>
         </div>
       </div>
     </section>
@@ -277,7 +368,7 @@
         <div class="row justify-content-center text-center">
           <p class="cmn_p mb-0">Special Features</p>
           <h2 class="cmn_h2">Why Choose Us</h2>
-          <p class="app_p m_30">Sem nulla dignissim arcu semper tempus turpis. Amet risus id nunc augue. Suscipit dictum mauris sed nulla. Amet mi elit donec id et diam cursus elit malesuada.</p>
+          <p class="app_p mb-0 cus_width ">Sem nulla dignissim arcu semper tempus turpis. Amet risus id nunc augue. Suscipit dictum mauris sed nulla. Amet mi elit donec id et diam cursus elit malesuada.</p>
           <hr class="mb-0">
         </div>
         <!-- feature details -->
@@ -295,7 +386,7 @@
             <div class="col-lg-6">
               <div class="single_f">
                 <div class="f_icon"><i class="fa-solid fa-shield"></i></div>
-              <h3 class="cmn_h3 mb-0">Safety with Comfort</h3>
+              <h3 class="cmn_h3 mb-0">Safety with Comfort - No need to compromise</h3>
               <p class="f_p mb-0"> Client's safety is always our first priority. We make sure that our clients can enjoy a comfortable ride wouhtout worrying about their safety. 
               </div>
             </div>
@@ -319,25 +410,144 @@
           </div>
         </div>
     </section>
-    <section class="faq cmn_padding">
+    <!-- testimonial start -->
+    <div class="testimonial cmn_padding">
       <div class="container">
+        <div class="row text-center">
+          <div class="r_top">
+            <p class="mb-0 cmn_p">Client Experiences That Speak Volumes</p>
+            <h2 class="cmn_h2">Real Feedback, Real Journeys, Real Satisfaction</h2>
+          </div>
+        </div>
+        <!-- 2nd row -->
+        <div class="row">
+          <div class="t_slider">
+          <!-- single -->
+          <div class="col-lg-4">
+            <div class="t_single">
+              <div class="row">
+                <div class="col-lg-3 px-0">
+                  <div class="t_img">
+                    <img src="images/t-2.png" class="img-fluid" alt="testimonial">
+                  </div>
+                </div>
+                <div class="col-lg-9">
+                  <h3 class="support_h3 mb-0 t_name">David Conner</h3>
+                  <p class="mb-0">CEO, Allston Group</p>
+                  <p class="mb-0 rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                </div>
+              </div>
+              <p class="mb-0 t_p"> <span><sup><i class="fa-solid fa-quote-left"></i></sup></span> I had an excellent experience with Hello-Cab. From the moment I made the reservation to the return of the vehicle, everything was seamless. The car was in top-notch condition and the customer service was outstanding.</p>
+            </div>
+          </div>
+          <!-- single -->
+          <div class="col-lg-4">
+            <div class="t_single">
+              <div class="row">
+                <div class="col-lg-3 px-0">
+                  <div class="t_img">
+                    <img src="images/t-1.png" class="img-fluid" alt="testimonial">
+                  </div>
+                </div>
+                <div class="col-lg-9">
+                  <h3 class="support_h3 mb-0 t_name">David Conner</h3>
+                  <p class="mb-0">CEO, Allston Group</p>
+                  <p class="mb-0 rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                </div>
+              </div>
+              <p class="mb-0 t_p"> <span><sup><i class="fa-solid fa-quote-left"></i></sup></span> I had an excellent experience with Hello-Cab. From the moment I made the reservation to the return of the vehicle, everything was seamless. The car was in top-notch condition and the customer service was outstanding.</p>
+            </div>
+          </div>
+          <!-- single -->
+          <div class="col-lg-4">
+            <div class="t_single">
+              <div class="row">
+                <div class="col-lg-3 px-0">
+                  <div class="t_img">
+                    <img src="images/t-2.png" class="img-fluid" alt="testimonial">
+                  </div>
+                </div>
+                <div class="col-lg-9">
+                  <h3 class="support_h3 mb-0 t_name">David Conner</h3>
+                  <p class="mb-0">CEO, Allston Group</p>
+                  <p class="mb-0 rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                </div>
+              </div>
+              <p class="mb-0 t_p"> <span><sup><i class="fa-solid fa-quote-left"></i></sup></span> I had an excellent experience with Hello-Cab. From the moment I made the reservation to the return of the vehicle, everything was seamless. The car was in top-notch condition and the customer service was outstanding.</p>
+            </div>
+          </div>
+          <!-- single -->
+          <div class="col-lg-4">
+            <div class="t_single">
+              <div class="row">
+                <div class="col-lg-3 px-0">
+                  <div class="t_img">
+                    <img src="images/t-3.png" class="img-fluid" alt="testimonial">
+                  </div>
+                </div>
+                <div class="col-lg-9">
+                  <h3 class="support_h3 mb-0 t_name">David Conner</h3>
+                  <p class="mb-0">CEO, Allston Group</p>
+                  <p class="mb-0 rating"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                </div>
+              </div>
+              <p class="mb-0 t_p"> <span><sup><i class="fa-solid fa-quote-left"></i></sup></span> I had an excellent experience with Hello-Cab. From the moment I made the reservation to the return of the vehicle, everything was seamless. The car was in top-notch condition and the customer service was outstanding.</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- app-download -->
+    <section class="app">
+      <div class="a_overlay"></div>
+      <div class="container">
+        <div class="app_content">
+          <p class="cmn_p mb-0">Your ride, your rules</p>
+          <h2 class="cmn_h2">Download the Hello-Cab app today</h2>
+          <p class="app_p mb-0 app_w">Sem nulla dignissim arcu semper tempus turpis. Amet risus id nunc augue. Suscipit dictum mauris sed nulla. Amet mi elit donec id et diam.</p>
+          <button class="btn app_btn"><i class="fa-brands fa-google-play"></i><p class="mb-0">Get it on <br> <span>google play</span></p></button>
+          <button class="btn app_btn c_btn"><i class="fa-brands fa-apple"></i><p class="mb-0">Download on<br> <span>App Store</span></p></button>
+        </div>
+      </div>
+    </section>
+    <section class="faq cmn_padding" id="help">
+      <div class="container">
+        <div class="row text-center">
+          <div class="r_top">
+            <p class="mb-0 cmn_p">Get your queries answerd</p>
+            <h2 class="cmn_h2">Rent the Ride, Own the Journey</h2>
+          </div>
+        </div>
         <div class="row">
           <div class="col-lg-6">
             <div class="faq_left">
-              <p class="cmn_p mb-0">Get your queries answerd</p>
-              <h2 class="cmn_h2 mb-0">Freequently Asked questions</h2>
-              <p class="app_p mb-0">Fermentum luctus convallis non lectus. Aliquam at ut viverra non arcu massa laoreet commodo ac.</p>
+              <h2 class="cmn_h2 mb-0">FAQ-Freequently Asked questions</h2>
+              <p class="app_p faq_p mb-0">We have a team solely dedicated to your support. Our 24/7 team is always there to answer your quesries and make sure that you get the best experience with us.</p>
               <div class="support">
-                <div class="row">
-                  <div class="col-lg-3">
+                <div class="row cus_mt">
+                  <div class="col-xl-2 col-lg-3 px-0">
                     <div class="support_img">
                       <img src="images/support.jpg" class="img-fluid" alt="support">
                     </div>
                   </div>
-                  <div class="col-lg-9">
+                  <div class="col-xl-10 col-lg-9 px-0">
                     <h3 class="support_h3 mb-0">Maddison Clark</h3>
                     <p class="mb-0">Support for 24hours</p>
-                    <button class="btn">Get Support</button>
+                    <button class="btn h_btn">Contact now</button>
+                  </div>
+                </div>
+                <!-- 2nd row -->
+                <div class="row">
+                  <div class="col-xl-2 col-lg-3">
+                    <div class="support_img">
+                      <img src="images/support.jpg" class="img-fluid" alt="support">
+                    </div>
+                  </div>
+                  <div class="col-xl-10 col-lg-9 px-0">
+                    <h3 class="support_h3 mb-0">Maddison Clark</h3>
+                    <p class="mb-0">Support for 24hours</p>
+                    <button class="btn h_btn">Contact now</button>
                   </div>
                 </div>
               </div>
@@ -348,11 +558,11 @@
             <div class="accordion" id="acdr_ex">
               <div class="accordion-item">
                 <h2 class="accordion-header">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    How do I book a ride with GoCab?
+                  <button class="accordion-button ac_btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    How do I book a ride with Hello-Cab?
                   </button>
                 </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="acdr_ex">
+                <div id="collapseOne" class="accordion-collapse ac_p collapse show" data-bs-parent="acdr_ex">
                   <div class="accordion-body">
                     Vitae tortor arcu eleifend nec massa dictum purus. Erat varius vulputate orci lacus gravida molestie habitant. Convallis massa hac proin rutrum nisl habitasse. Amet etiam dignissim.
                   </div>
@@ -360,7 +570,7 @@
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <button class="accordion-button ac_btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     How can I track my ride in real-time?
                   </button>
                 </h2>
@@ -372,7 +582,7 @@
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <button class="accordion-button ac_btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     Is it possible to book a ride in Advance?
                   </button>
                 </h2>
@@ -384,7 +594,7 @@
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <button class="accordion-button ac_btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                     Can I book for someone else?
                   </button>
                 </h2>
@@ -396,7 +606,7 @@
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  <button class="accordion-button ac_btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                     How does the free priority pickup upgrades benefit work?
                   </button>
                 </h2>
@@ -411,14 +621,87 @@
         </div>
       </div>
     </section>
+        <!-- footer start -->
+        <footer>
+          <div class="container">
+            <!-- 1st row -->
+            <div class="row">
+              <div class="col-lg-3 col-md-12 col-sm-12 col-12">
+                <div class="f_logo">
+                  <a class="navbar-brand h_logo" href="index.html">
+                    <span><i class="fa-solid fa-car"></i></span>Hello-Cab
+                  </a>
+                </div>
+                <p class="footer_p">9 ######$$$ $$$$$$$$, Test Gloria, ##### Ohio. 
+                  POSTCODE PH11 456,  ENGLAND (U.K)</p>
+              </div>
+              <!-- f_options start -->
+              <div class="col-lg col-md-6 col-sm-6 col-12">
+                <div class="f_options">
+                  <ul>
+                    <li><h3 class="f_h3">Company</h3></li>
+                    <li><a href="#about" class="text-decoration-none">About Us</a></li>
+                    <li><a href="#" class="text-decoration-none">Our Offerings</a></li>
+                    <li><a href="#" class="text-decoration-none">Newsroom</a></li>
+                    <li><a href="#" class="text-decoration-none">Hosting</a></li>
+                    <li><a href="#" class="text-decoration-none">Investors</a></li>
+                    <li><a href="#" class="text-decoration-none">Blog</a></li>
+                    <li><a href="#" class="text-decoration-none">Career</a></li>
+                  </ul>
+                </div>
+              </div>
+              <!-- f_options start -->
+              <div class="col-lg col-md-6 col-sm-6 col-12">
+                <div class="f_options">
+                  <ul>
+                    <li><h3 class="f_h3">Products</h3></li>
+                    <li><a href="#" class="text-decoration-none">Ride</a></li>
+                    <li><a href="#" class="text-decoration-none">Drive</a></li>
+                    <li><a href="#" class="text-decoration-none">Business</a></li>
+                    <li><a href="#" class="text-decoration-none">Rewards</a></li>
+                    <li><a href="#" class="text-decoration-none">Gift Cards</a></li>
+                  </ul>
+                </div>
+              </div>
+              <!-- f_options start -->
+              <div class="col-lg col-md-6 col-sm-6 col-12">
+                <div class="f_options">
+                  <ul>
+                    <li><h3 class="f_h3">Help</h3></li>
+                    <li><a href="#" class="text-decoration-none">FAQ</a></li>
+                    <li><a href="#help" class="text-decoration-none">Help Support</a></li>
+                  </ul>
+                </div>
+              </div>
+              <!-- f_options start -->
+              <div class="col-lg col-md-6 col-sm-6 col-12">
+                <div class="f_options">
+                  <ul>
+                    <li><button class="btn h_btn">Book a ride</button></li>
+                    <li><button class="btn h_btn">Contact Us</button></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+    
+            <!-- 2nd row -->
+            <div class="row text-center">
+              <p class="footer_p f_m">Built by <span>Tashfia Khanom</span>. Copyright 2024</p>
+            </div>
+          </div>
+        </footer>
+        <!-- footer end -->
 
 
 
 
     <!--JS LINKS-->
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery_1.12.4_jquery.min.js"></script>
+    <!-- <script src="js/jquery-3.7.1.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="vendor/counter_up/jquery.counterup.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
